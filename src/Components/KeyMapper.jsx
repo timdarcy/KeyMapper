@@ -21,8 +21,6 @@ export default class KeyMapper extends React.Component{
                             keyCode: keyDown.keyCode,
                             keyLocation: keyDown.location,
                             keyWhich: keyDown.which
-                        }, () => {
-                            console.log(keyDown.persist())
                         })
                     }}
                     >
